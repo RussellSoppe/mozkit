@@ -39,21 +39,25 @@
 }
 
 .flipper {
-  position: relative;
+  /*position: relative;*/
 
   transform: rotateY(180deg);
   -webkit-transform: rotateY(180deg);
+
   transition: 0.8s;
+
   transform-style: preserve-3d;
   -webkit-transform-style: preserve-3d;
 }
 
 .flipback{
-  position: relative;
+  /*position: relative;*/
 
   transform: rotateY(0deg);
   -webkit-transform: rotateY(0deg);
+
   transition: 0.8s;
+
   transform-style: preserve-3d;
   -webkit-transform-style: preserve-3d;
 }
