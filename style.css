@@ -4,6 +4,12 @@
   background-color: lightblue;
 }
 
+#container2{
+  height: 100px;
+  width: 100px;
+  background-color: lightblue;
+}
+
 .front{
   z-index: 1;
   position: absolute;
