@@ -18,9 +18,10 @@
   background-color: grey;
 
   transform: rotateY(0deg);
+  -webkit-transform: rotateY(0deg);
   
-  -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
 }
 
 .back{
@@ -31,23 +32,28 @@
   background-color: lightblue;
 
   transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
   
- -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
 }
 
 .flipper {
   position: relative;
 
   transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
   transition: 0.8s;
   transform-style: preserve-3d;
+  -webkit-transform-style: preserve-3d;
 }
 
 .flipback{
   position: relative;
 
   transform: rotateY(0deg);
+  -webkit-transform: rotateY(0deg);
   transition: 0.8s;
   transform-style: preserve-3d;
+  -webkit-transform-style: preserve-3d;
 }

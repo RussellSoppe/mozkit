@@ -6,7 +6,7 @@ let back = document.getElementsByClassName("back");
 const flipMe = (id)=>{
 	id.className = "flipper";
 	const flipBack = ()=>{
-		id.className = "flipback";
+	id.className = "flipback";
 	};
 	setTimeout(flipBack, 3000);
 };
