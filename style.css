@@ -11,6 +11,8 @@
   background-color: grey;
 
   transform: rotateY(0deg);
+  
+  -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
 }
 
@@ -20,6 +22,8 @@
   background-color: lightblue;
 
   transform: rotateY(180deg);
+  
+ -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
 }
 
